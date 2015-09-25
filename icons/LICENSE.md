@@ -1,2 +1,2 @@
 # ICONS LICENSE
-all rights reserved
+Connected-IM (by JustApps4All): all rights reserved
