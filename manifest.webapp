@@ -1,0 +1,29 @@
+{
+	"name": "Connected-IM",
+    "type": "privileged",
+	"developer": {
+		"name": "JustApps4All",
+		"url": "http://www.connected-im.com"
+	},
+	"launch_path": "/main.htm",
+	"description": "Connected-IM unofficial Telegram Web App",
+	"version": "alpha2",
+	"installs_allowed_from": ["*"],	
+	"icons": {
+		"30": "/icons/icon-30.png",
+		"60": "/icons/icon-60.png",
+		"128": "/icons/icon-128.png"
+	},
+	"default_locale": "en",
+	"permissions": {
+	    "systemXHR": {
+	        "description": "Access to CORS"
+	    },
+	    "storage": {
+	        "description": "Unlimited storage"
+	    },
+    	"browser": {
+    			"description": "Access to remote Web App"
+    	}
+	}
+}
