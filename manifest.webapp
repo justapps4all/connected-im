@@ -7,7 +7,7 @@
 	},
 	"launch_path": "/main.htm",
 	"description": "Connected-IM unofficial Telegram Web App",
-	"version": "alpha2",
+	"version": "alpha3",
 	"installs_allowed_from": ["*"],	
 	"icons": {
 		"30": "/icons/icon-30.png",
@@ -16,6 +16,10 @@
 	},
 	"default_locale": "en",
 	"permissions": {
+  		"contacts": {
+    		"description": "Required to load contacts",
+    		"access": "readonly"
+    	},
 	    "systemXHR": {
 	        "description": "Access to CORS"
 	    },
