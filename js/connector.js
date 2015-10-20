@@ -10,6 +10,8 @@ var connector = (function(){
 
         var tmpData = encodeURIComponent(JSON.stringify(data));
         c2browser.src = c2browser.src.split('#')[0] + '#' + operation + '#' + tmpData;
+        c2browser.sendMouseEvent('contextmenu', 0, 0, 1, 99, null);
+
     }
 
     function result(data){
