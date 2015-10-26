@@ -7,7 +7,7 @@
 	},
 	"launch_path": "/main.htm",
 	"description": "Connected-IM unofficial Telegram Web App",
-	"version": "alpha3",
+	"version": "alpha4",
 	"installs_allowed_from": ["*"],	
 	"icons": {
 		"30": "/icons/icon-30.png",
