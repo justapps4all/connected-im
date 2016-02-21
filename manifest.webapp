@@ -5,14 +5,14 @@
 		"name": "JustApps4All",
 		"url": "http://www.connected-im.com"
 	},
-	"launch_path": "/main.htm",
+	"launch_path": "/www/main.htm",
 	"description": "Connected-IM unofficial Telegram Web App",
 	"version": "alpha4",
 	"installs_allowed_from": ["*"],	
 	"icons": {
-		"30": "/icons/icon-30.png",
-		"60": "/icons/icon-60.png",
-		"128": "/icons/icon-128.png"
+		"30": "/www/icons/icon-30.png",
+		"60": "/www/icons/icon-60.png",
+		"128": "/www/icons/icon-128.png"
 	},
 	"default_locale": "en",
 	"permissions": {
